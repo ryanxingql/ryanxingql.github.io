@@ -136,3 +136,27 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+.publication-more {
+  margin-top: 10px;
+}
+
+.publication-more summary {
+  color: #1772d0;
+  cursor: pointer;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.publication-more summary:focus,
+.publication-more summary:hover {
+  color: #f09228;
+}
+
+.publication-more[open] summary {
+  margin-bottom: 10px;
+}
+
+.publication-more ul {
+  margin-top: 0;
+}
