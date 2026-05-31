@@ -88,7 +88,7 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px
+  font-size: 14px;
 }
 
 strong {
@@ -96,49 +96,21 @@ strong {
   font-size: 14px;
 }
 
-heading {
+.heading {
+  display: block;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 22px;
+  font-weight: 400;
+  margin: 0;
 }
 
-papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700
-}
-
-name {
+.name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
 }
 
-.one {
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-
-.two {
-  width: 160px;
-  height: 160px;
-  position: absolute;
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
-}
-
-.fade {
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
-}
-
-span.highlight {
-  background-color: #ffffd0;
-}
-
 .publication-topic {
-  margin-top: 12px;
+  margin-top: 10px;
 }
 
 .publication-topic summary {
@@ -155,10 +127,10 @@ span.highlight {
 }
 
 .publication-topic[open] summary {
-  margin-bottom: 6px;
+  margin-bottom: 10px;
 }
 
 .publication-topic ul {
-  margin-top: 8px;
+  margin-top: 0;
   margin-bottom: 0;
 }
