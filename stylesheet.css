@@ -97,16 +97,17 @@ strong {
 }
 
 .heading {
-  display: block;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 22px;
   font-weight: 400;
-  margin: 0;
+  line-height: normal;
 }
 
 .name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .publication-topic {
