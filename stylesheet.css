@@ -137,26 +137,28 @@ span.highlight {
   background-color: #ffffd0;
 }
 
-.publication-more {
-  margin-top: 10px;
+.publication-topic {
+  margin-top: 12px;
 }
 
-.publication-more summary {
+.publication-topic summary {
   color: #1772d0;
   cursor: pointer;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 700;
 }
 
-.publication-more summary:focus,
-.publication-more summary:hover {
+.publication-topic summary:focus,
+.publication-topic summary:hover {
   color: #f09228;
 }
 
-.publication-more[open] summary {
-  margin-bottom: 10px;
+.publication-topic[open] summary {
+  margin-bottom: 6px;
 }
 
-.publication-more ul {
-  margin-top: 0;
+.publication-topic ul {
+  margin-top: 8px;
+  margin-bottom: 0;
 }
